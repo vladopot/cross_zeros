@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: 1s;
+}
+
+.wrapper {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    top: 150px;
+    margin: auto;
+}
+
+.ceil {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(112, 112, 112);
+}
+
+.ceil:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.header {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    top: 100px;
+}
+
+.cross {
+    background-image: url(./assets/cross.png);
+    background-size: 100%;
+}
+
+.zero {
+    background-image: url(./assets/zero.png);
+    background-size: 100%;
+}
